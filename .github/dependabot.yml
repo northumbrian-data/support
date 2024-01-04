@@ -1,16 +1,16 @@
-version: 2
-updates:
-  - package-ecosystem: "github-actions"
-    directory: "/.github/"
-    schedule:
-      interval: "monthly"
-    reviewers:
-      - "gliff-ai/ci-cd"
-    commit-message:
-      prefix: "chore: "
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    reviewers:
-      - "gliff-ai/frontend"
+# version: 2
+# updates:
+#   - package-ecosystem: "github-actions"
+#     directory: "/.github/"
+#     schedule:
+#       interval: "monthly"
+#     reviewers:
+#       - "gliff-ai/ci-cd"
+#     commit-message:
+#       prefix: "chore: "
+#   - package-ecosystem: "npm"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#     reviewers:
+#       - "gliff-ai/frontend"
